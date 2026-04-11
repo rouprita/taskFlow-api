@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/xJkz9lv9f4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ROUPRITA\\OneDrive\\Desktop\\fav\\SystemMonitorApp\\SystemMonitorApp\\SystemMonitorApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ROUPRITA\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.4\\microsoft.extensions.dependencyinjection.9.0.4.nupkg.sha512",
+    "C:\\Users\\ROUPRITA\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.4\\microsoft.extensions.dependencyinjection.abstractions.9.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
