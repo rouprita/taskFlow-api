@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SystemMonitorApp
 
 ## 📦 Description
@@ -28,3 +29,7 @@ The app loads plugins based on the settings in `appsettings.json`. Example:
     "Enabled": [ "FileLoggerPlugin" ]
   }
 }
+=======
+# taskFlow-api
+Full stack task management system built with ASP.NET Core 8, React, and SQL Server
+>>>>>>> 0518b7f54c3ae532cec6c5b9393cab7131dc3796
