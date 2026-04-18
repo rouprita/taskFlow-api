@@ -2,7 +2,10 @@
 builder = "nixpacks"
 
 [build.nixpacksPlan.phases.setup]
-nixPkgs = ["dotnet-sdk_10"]
+nixPkgs = ["dotnet-sdk"]
+
+[build.nixpacksPlan.variables]
+DOTNET_VERSION = "10"
 
 [deploy]
 startCommand = "cd out && dotnet SystemMonitorApp.dll"
