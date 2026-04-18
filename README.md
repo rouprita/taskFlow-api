@@ -1,35 +1,42 @@
-<<<<<<< HEAD
-# SystemMonitorApp
+# TaskFlow API
 
-## 📦 Description
-A console-based system resource monitoring app using .NET. It tracks CPU, memory, and disk usage and logs it using a plugin system, which allows easy extensibility for custom logging or integrations.
+A full stack task management system built with ASP.NET Core 10, React, JWT Authentication, and SQLite.
 
-## ⚙️ Features
-- Monitors system resources (CPU, memory, disk usage).
-- Plugin-based logging (e.g., File Logger).
-- Configurable via `appsettings.json`.
-- Cross-platform compatibility (Windows, macOS, Linux).
+## 🚀 Live Demo
+- API: [Railway URL - coming soon]
+- Frontend: [Vercel URL - coming soon]
 
-## 🚀 How to Run
+## 🛠 Tech Stack
+- **Backend:** ASP.NET Core 10, C#, Entity Framework Core
+- **Frontend:** React, Axios, React Router
+- **Database:** SQLite
+- **Auth:** JWT Bearer Token + BCrypt password hashing
+- **Deployment:** Railway (API) + Vercel (React)
 
-1. Install [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0).
-2. Clone or unzip this repo to your local machine.
-3. Open the folder in Visual Studio Code.
-4. Run the following command in the terminal:
-    ```
-    dotnet run
-    ```
+## ✨ Features
+- User Registration & Login with JWT Auth
+- Create, Read, Update, Delete Tasks
+- Kanban Board (Todo / In Progress / Done)
+- Move tasks between columns
+- Protected routes
 
-## 🧩 Plugins
-The app loads plugins based on the settings in `appsettings.json`. Example:
+## 📡 API Endpoints
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | /api/Auth/register | Register user |
+| POST | /api/Auth/login | Login + get token |
+| GET | /api/Tasks | Get all tasks |
+| POST | /api/Tasks | Create task |
+| PUT | /api/Tasks/{id} | Update task |
+| DELETE | /api/Tasks/{id} | Delete task |
 
-```json
-{
-  "Plugins": {
-    "Enabled": [ "FileLoggerPlugin" ]
-  }
-}
-=======
-# taskFlow-api
-Full stack task management system built with ASP.NET Core 8, React, and SQL Server
->>>>>>> 0518b7f54c3ae532cec6c5b9393cab7131dc3796
+## 🏃 Run Locally
+```bash
+git clone https://github.com/rouprita/taskFlow-api.git
+cd taskFlow-api
+dotnet restore
+dotnet ef database update
+dotnet run
+```
+
+Visit `http://localhost:5000/swagger`
