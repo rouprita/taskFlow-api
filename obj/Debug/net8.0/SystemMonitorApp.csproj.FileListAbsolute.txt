@@ -1,4 +1,0 @@
-C:\Users\ROUPRITA\OneDrive\Desktop\fav\SystemMonitorApp\obj\Debug\net8.0\SystemMonitorApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ROUPRITA\OneDrive\Desktop\fav\SystemMonitorApp\obj\Debug\net8.0\SystemMonitorApp.AssemblyInfoInputs.cache
-C:\Users\ROUPRITA\OneDrive\Desktop\fav\SystemMonitorApp\obj\Debug\net8.0\SystemMonitorApp.AssemblyInfo.cs
-C:\Users\ROUPRITA\OneDrive\Desktop\fav\SystemMonitorApp\obj\Debug\net8.0\SystemMonitorApp.csproj.CoreCompileInputs.cache
