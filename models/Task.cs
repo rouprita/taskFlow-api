@@ -17,8 +17,7 @@ namespace TaskflowApi.Models
         [Required, MaxLength(20)]
         public string Status { get; set; } = "Todo";
 
-        [Required]
-        public int ProjectId { get; set; }
+        public int? ProjectId { get; set; }
 
         [ForeignKey("ProjectId")]
         public Project? Project { get; set; }
